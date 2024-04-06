@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="surveyform.css">
+</head>
+<body>
+    <div class="heading"><h1>Introduction to Programming</h1>
+        <p>This is our survey form to get users feedback on our product.</p>
+    </div>
+    <section class="content">
+        <form class="form1">
+            <label for="fname">Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="Your name" required>
+            <br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="Your email " required>
+            <br>
+            <label for="age">Age(Optional):</label><br>
+            <input type="text" id="age" name="age" placeholder="Your age"required>
+            <br>
+            <label for="phone">Enter your phone number:</label><br>
+            <input type="text" id="phone" name="phone" placeholder="+123 456 789" required>
+            <br>  
+       
+
+            <div class="salary">
+             <h5>What best describes your current salary?</h5>
+               <select class="options" name="currency" required>
+                <option value="$1000">Above $1000</option>
+                <option value="$900">$900</option>
+                <option value="$800">$800</option>
+                <option value="$700">$900 </option>
+                <option value="$600">$900</option>
+                <option value="$500">$900</option>
+                <option value="$400">$400</option>
+                <option value="$3300">$3300</option>
+                <option value="$200">$200</option>
+                <option value="$9000">$9000</option>
+                <option value="$34400">$34400</option>
+                <option value="$9800">$9800</option>
+                <option value="$7400">$7400</option>
+                <option value="$5600">$5600</option>
+                <option value="$4400">$4400</option>
+                <option value="$2200">$2200</option>
+                <option value="$1100">$1100</option>
+               </select>
+            </div>
+
+            <div class="roles">
+             <h5>what best describes your current role?</h5>
+             <select class="options" name="roles" required>
+               <option value="student">student</option>
+               <option value="teacher">teacher</option>
+               <option value="principal">principal</option>
+               <option value="cleaner">cleaner</option>
+               <option value="S.A">S.A</option>
+               <option value="counsenlor">counsenlor</option>
+             </select>  
+            </div>
+           
+                <div class="types">
+                  <h5>Types of programming interested in:</h5>
+                  <div class="form-control">
+                    <div class="field-inputs">
+                      <div class="input-div">
+                        <input type="radio" id="Functional" value="Functional">
+                        <label for="Functional">Functional</label><br>
+                        <input type="radio" id="Declarative" value="Declarative">
+                        <label for="Declarative">Declarative</label><br>
+                        <input type="radio" id="Object oriented" value="Object oriented">
+                        <label for="Object oriented">Object oriented</label><br>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="program">
+                  <h5>Programming of Language interested in:</h5>
+                  <div class="programs">
+                    <div class="field-input">
+                      <div class="inputs-div">
+                        <input type="radio" id="C++" value="C++">
+                        <label for="C++">C++</label><br>
+                        <input type="radio" id="Fortran" value="Fortran">
+                        <label for="Fortran">Fortran</label><br>
+                        <input type="radio" id="Java" value="Java">
+                        <label for="Java">Java</label><br>
+                        <input type="radio" id="Pascal" value="Pascal">
+                        <label for="Pascal">Pascal</label><br>
+                        <input type="radio" id="Ruby" value="Ruby">
+                        <label for="Ruby">Ruby</label><br>
+                        <input type="radio" id="C#" value="C#">
+                        <label for="C#">C#</label><br>
+                        <input type="radio" id="Python" value="Python">
+                        <label for="Python">Python</label><br>
+                        <input type="radio" id="PHP" value="PHP">
+                        <label for="PHP">PHP</label><br>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="info">
+                  <h4>Additional Information</h4>
+                  <label for="comments"></label><br>
+                  <input class="input1" type="text" id="com" name="ments" placeholder="Do you have anything else to add?">
+                  <br>                  
+                                       
+                </div>
+
+                <div class="button">
+                <button class="btn" type="submit">Submit</button>
+                </div>
+              </form>  
+    </section>
+  </body>
+</html>

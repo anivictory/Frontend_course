@@ -1,0 +1,162 @@
+ body{
+    background: #fff
+    url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgAQMAAABJtOi3AAAABlBMVEX4+Pj09PQf/c7fAAAAGklEQVR4Xq3MIQEAAADDIPqX/kvMIMEWEm8O7b0/wewc/NcAAAAASUVORK5CYII=) repeat;
+}
+
+.animate__animated{
+    height: 5em;
+    line-height: 5em;
+    width: 10em;
+    background: #464646;
+    color: #fff;
+    text-align: center;
+    margin: 1em auto;
+    text-shadow: 0 0 1px #333;
+}
+
+.animate__animated{
+    visibility: visible;
+    animation-play-state: paused;
+}
+
+.animate__animated{
+    visibility: visible;
+    animation-fill-mode: both;
+    animation-duration: 1s;
+    animation-play-state: running;
+}
+
+@keyframes fadeIn {
+    0%,
+    60% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeDown {
+    0%{
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes bounceIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.3);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    70% {
+        transform: scale(0.9);
+    }
+}
+
+@keyframes bounceInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-2000px);
+    }
+    60% {
+        transform: translateX(20px);
+    }
+    80% {
+        transform: translateX(-5px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes bounceInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(2000px);
+    }
+    60% {
+        transform: translateX(-20px);
+    }
+    80% {
+        transform: translateX(5px);
+    }
+    100% {
+        opacity: 1; 
+        transform: translateX(0);
+    }
+}
+
+@keyframes moveUp {
+    0% {
+        transform: translateY(40px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeBgColor {
+    0%,
+    70% {
+        background: none;
+    }
+    100% {
+        background: #464646;
+    }
+}
+
+.animate__animated.animationDelay {
+    animation-delay: 1.4s;
+}
+.animate__animated.animationDelayMed {
+    animation-delay: 0.6s;
+}
+.animate__animated.animationDelayLong {
+    animation-delay: 1.6s;
+}
+.animate__animated.fadeBgColor {
+    animation-name: fadeBgcolor;
+}
+.animate__animated.bounceIn {
+    animation-name:bounceIn;
+}
+.animate__animated.bounceInRight {
+    animation-name: bounceInRight;
+}
+.animate__animated.bounceInLeft {
+    animation-name: bounceInLeft;
+}
+.animate__animated.fadeIn {
+    animation-name: fadeIn;
+}
+
+.animate__animated.fadeInDown {
+    animation-name: fadeInDown;
+}
+
+.animate__animated.fadeInUp {
+    animation-name: fadeInUp;
+}
+
+.animate__animated.moveUp {
+    animation-name: moveUp;
+}

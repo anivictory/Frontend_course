@@ -1,0 +1,146 @@
+body{
+    background: #ffffff
+    url(drew-beamer-kUHfMW8awpE-unsplash.jpg);
+}
+
+#topnav{
+    margin-left: 700px;
+}
+
+#topnav ul li{
+    display: inline;
+    list-style-type: none;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif ;
+}
+
+#topnav ul li a{
+    color: blueviolet;
+    text-decoration: none;
+    margin: 0px 5px;
+    padding: 5px;
+} 
+
+#topnav ul li a:hover{
+     border-bottom:3px solid  blueviolet;
+    transition: 50ms linear 0s;
+    -moz-transition: 50ms linear 0s;
+    -webkit-transition: 50ms linear 0s;
+}
+
+.Contacts{
+    margin-left: 510px;
+}
+
+.Contacts a{
+    color: white;
+    background:dodgerblue;
+    font-size: 25px;
+    padding: 0.5rem 0.8rem;
+    border-radius: 40px;
+    box-shadow: 30px ;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.Contacts a:hover{
+    background-color: blueviolet;
+}
+
+header{
+    text-align: center;
+}
+
+h1{
+    color: darkslategray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    margin-left: 40px;
+}
+
+h2{
+    color: darkslategrey;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 45px;
+    margin-left: 40px;
+}
+
+p{
+    color: dimgray;
+    font-size: 20px;
+    margin-left: 40px;
+    flex-wrap: wrap;
+}
+
+.hire{
+   margin-top: 20px;
+   margin-left: 40px; 
+}
+
+.hire a{
+    color: white;
+    background:dodgerblue;
+    font-size: 25px;
+    padding: 0.5rem 0.8rem;
+    border-radius: 40px;
+    box-shadow: 30px ;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.hire a:hover{
+    background-color: blueviolet;   
+}
+
+.albert img{
+    width: 30rem;
+    height: 30rem;
+    margin-left: 820px;
+}
+
+.inline{
+    display: grid;
+}
+
+.services{
+    text-align: center;
+}
+
+.section1{
+    border: 10px solid  blue;
+    border-radius: 10px;
+    margin-right: 1000px;
+    margin-left: 30px;
+}
+
+.section1 h5{
+    margin-left: 30px;
+}
+
+.section2{
+    border: 10px solid  blue;
+    border-radius: 10px;
+    margin-right: 1000px;
+    margin-left: 30px;
+}
+
+.section2 h5{
+    margin-left: 30px;
+} 
+
+.section3{
+    border: 10px solid  blue;
+    border-radius: 10px;
+    margin-right: 1000px;
+    margin-left: 30px;
+}
+
+.section3 h5{
+    margin-left: 30px;
+}
+
+.port{
+    text-align: center;
+}

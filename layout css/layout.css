@@ -1,0 +1,22 @@
+*{
+    font-size: 24px;;
+}
+
+.my-element {
+    display: flex;
+    flex: 1 0 auto;
+    }
+     .my-element[data-flex-wrap] {
+    flex-wrap: wrap;
+    }
+    .my-element[data-space] {
+    justify-content: space-between;
+    }
+    .my-element[data-align-center] {
+    align-items: center;
+    }
+    .my-element > * {
+    max-width: 280px;
+    margin-right: 50px;
+    margin-left: 50px;
+    } 
